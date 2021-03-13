@@ -1,0 +1,126 @@
+/* GLOBAL STYLES */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(34, 165, 165);
+  background-image: url("titanicSasi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  opacity: .65;
+}
+
+/* HEADER SECTION */
+#header-section {
+  color: black;;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#header-section p {
+   font-style: italic;
+}
+
+#header-section h1 {
+  margin-bottom: 2px;
+}
+
+/* FORM SECTION */
+#form-section {
+  background-color: rgb(72, 131, 199);
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#form-section input[type=text], #form-section input[type=email], #form-section input[type=number] {
+  display: block;
+  width: 97%;
+  padding: 10px;
+  margin: 10px 0;
+  border: rgb(223, 223, 151);
+  border-radius: 3px;
+}
+
+#survey-form .row {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+#comment {
+  border-radius: 3px;
+}
+
+#submit {
+  width: 99%;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid green;
+}
+
+#fcc {
+  text-decoration: none;
+  color: green;
+}
+
+#dropdown, #interest {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  height: 40px;
+}
+
+.pairProgram label{
+  display: inline-block;
+   clear: right; 
+ }
+
+ input[type=checkbox] {
+   display: inline-block;
+   margin-top: -15px;
+   margin-right: 10px;
+ }
+
+ .improve label{
+   display: inline;
+   line-height: 35px;
+ }
+
+ .commentBox p {
+   margin: 0 0 15px 0;
+ }
+
+ #comment {
+   width: 100%;
+   height: 100px;
+ }
+
+ 
+/* FOOTER SECTION */
+#footer-section {
+  color: black;
+}
+
+#footer-section a {
+  margin: 0 auto;
+  padding: 5px;
+  color: black;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 1200px) {
+   #form-section {
+     width: 50%;
+   }
+}
+
